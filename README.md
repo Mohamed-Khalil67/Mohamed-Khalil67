@@ -25,4 +25,4 @@ Passionate about building robust and innovative solutions, I specialize in **Ful
 
 #
 🔗 **Connect with me:**  
-[![Email](https://img.shields.io/badge/Email-mohamed.khalil.ucbl@gmail.com-blue?style=flat&logo=gmail)](mailto:mohamed.khalil.ucbl@gmail.com) / [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin)](YOUR_LINKEDIN_URL)  
+[![Email](https://img.shields.io/badge/Email-mohamed.khalil.ucbl@gmail.com-blue?style=flat&logo=gmail)](mailto:mohamed.khalil.ucbl@gmail.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin)](YOUR_LINKEDIN_URL)  
