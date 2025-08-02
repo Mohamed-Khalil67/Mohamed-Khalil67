@@ -2,8 +2,6 @@
 
 **`Full Stack & Embedded Software Developer`** 
 
-🌍 French Egyptian  
-
 Passionate about building robust and innovative solutions, I specialize in **Full Stack Development** (Angular, React.js, Node.js and MongoDB) and **Embedded Systems** (C/C++, Python). With a strong background in both software R&D and web development, I thrive on turning complex problems into efficient, scalable applications.  
 
 #
