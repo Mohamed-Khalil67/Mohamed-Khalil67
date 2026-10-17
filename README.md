@@ -17,7 +17,7 @@ Writing CSS by hand was the hardest part of learning front end, and it's the par
 | **Fluid design** | `clamp()` typography, `aspect-ratio`, relative units |
 | **Visual polish** | Sticky blurred headers (`backdrop-filter`), hover and transition details, `@keyframes` animation, typographic pairing |
 | **Frameworks** | Angular (SSR, standalone components, lazy routing, signals, NgRx Signals), Bootstrap |
-| **Data & state** | GraphQL with Apollo, REST, Firebase Auth, Stripe Checkout |
+| **Data & state** | REST APIs, Firebase Auth, Stripe Checkout |
 | **Tooling** | TypeScript, SCSS, Nx, Git/GitHub, Vercel, Jest, Playwright |
 
 ---
@@ -60,7 +60,6 @@ Angular 21 SSR storefront + NestJS GraphQL API + Prisma/PostgreSQL + Firebase Au
 <img align="left" alt="Angular" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg" />
 <img align="left" alt="NestJS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg" />
 <img align="left" alt="Node.js" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-<img align="left" alt="GraphQL" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" />
 <img align="left" alt="PostgreSQL" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg" />
 <img align="left" alt="Python" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg" />
 <img align="left" alt="C++" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-plain.svg" />
