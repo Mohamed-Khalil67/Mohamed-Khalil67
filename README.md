@@ -20,14 +20,6 @@ Writing CSS by hand was the hardest part of learning front end, and it's the par
 | **Data & state** | REST APIs, Firebase Auth, Stripe Checkout |
 | **Tooling** | TypeScript, SCSS, Nx, Git/GitHub, Vercel, Jest, Playwright |
 
----
-
-## 🚀 Featured project
-
-### 🧥 [Hoodizz](https://github.com/Mohamed-Khalil67/Hoodizz): streetwear e-commerce
-Angular 21 SSR storefront + NestJS GraphQL API + Prisma/PostgreSQL + Firebase Auth + Stripe payments, in an Nx monorepo. Custom SCSS design system.
-**[Live demo](https://hoodizz-retail-markt.vercel.app)** · `Angular` `NestJS` `GraphQL` `Prisma` `Stripe`
-
 ## 🛠️ Languages and tools
 
 <img align="left" alt="HTML" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
