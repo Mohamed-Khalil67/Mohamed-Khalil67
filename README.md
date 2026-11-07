@@ -28,28 +28,6 @@ Writing CSS by hand was the hardest part of learning front end, and it's the par
 Angular 21 SSR storefront + NestJS GraphQL API + Prisma/PostgreSQL + Firebase Auth + Stripe payments, in an Nx monorepo. Custom SCSS design system.
 **[Live demo](https://hoodizz-retail-markt.vercel.app)** · `Angular` `NestJS` `GraphQL` `Prisma` `Stripe`
 
----
-
-## 🌐 Front-end projects
-
-| Project | What it is | Stack | Links |
-|---|---|---|---|
-| **[Portfolio](https://github.com/Mohamed-Khalil67/portfolio)** | Showcase of the projects from my web-dev journey | HTML · CSS · JS | [Live](https://portfolio-swart-omega-11.vercel.app) |
-| **[Adasa Blogs](https://github.com/Mohamed-Khalil67/adasa-blogs)** | Blog app practising Angular routing | Angular | [Live](https://adasa-blogs.vercel.app) |
-| **[URL Shortener](https://github.com/Mohamed-Khalil67/URL-Shortening-Webstie)** | Landing page for a URL-shortening service | HTML · CSS | [Repo](https://github.com/Mohamed-Khalil67/URL-Shortening-Webstie) |
-| **[College de la Salle](https://github.com/Mohamed-Khalil67/college-de-la-salle)** | Full website for a school | TypeScript | [Repo](https://github.com/Mohamed-Khalil67/college-de-la-salle) |
-| **[POS Dashboard](https://github.com/Mohamed-Khalil67/pos-dashboard)** | Point-of-sale dashboard for retailers | TypeScript | [Repo](https://github.com/Mohamed-Khalil67/pos-dashboard) |
-| **[Media Dashboard](https://github.com/Mohamed-Khalil67/media-dashboard)** | Ads monitoring system | TypeScript | [Repo](https://github.com/Mohamed-Khalil67/media-dashboard) |
-| **[Social App](https://github.com/Mohamed-Khalil67/social-app)** | Angular social app | Angular | [Repo](https://github.com/Mohamed-Khalil67/social-app) |
-| **[NutriPlan](https://github.com/Mohamed-Khalil67/NutriPlan)** | Recipe and meal library | JavaScript | [Repo](https://github.com/Mohamed-Khalil67/NutriPlan) |
-| **[What's For Dinner](https://github.com/Mohamed-Khalil67/What-s-For-Dinner)** | Random recipe picker, one button | JavaScript | [Repo](https://github.com/Mohamed-Khalil67/What-s-For-Dinner) |
-| **[Cosmos Space Dashboard](https://github.com/Mohamed-Khalil67/Cosmos-Space-Dashboard)** | Space dashboard built on a public API | HTML · CSS · JS | [Repo](https://github.com/Mohamed-Khalil67/Cosmos-Space-Dashboard) |
-| **[Contact Hub](https://github.com/Mohamed-Khalil67/Contact-Hub)** | Contacts manager for friends and family | HTML · CSS · JS | [Repo](https://github.com/Mohamed-Khalil67/Contact-Hub) |
-| **[Video Gaming Tournament](https://github.com/Mohamed-Khalil67/Video-Gaming-Tournament-Landing-Page)** | Landing page for game tournaments | HTML · CSS | [Repo](https://github.com/Mohamed-Khalil67/Video-Gaming-Tournament-Landing-Page) |
-| **[Clarity Website](https://github.com/Mohamed-Khalil67/Clarity-Website)** | Bootstrap site | HTML · Bootstrap | [Repo](https://github.com/Mohamed-Khalil67/Clarity-Website) |
-
----
-
 ## 🛠️ Languages and tools
 
 <img align="left" alt="HTML" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
