@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 230" width="900" height="230" role="img" aria-labelledby="t d">
+  <title id="t">Hi, I'm Mohamed</title>
+  <desc id="d">Full Stack Developer: Angular, NestJS, TypeScript</desc>
+  <style>
+    /* One 10s cycle: type (0.3-1.8s), fade in lines, hold, erase (8.8-9.4s), repeat. */
+    .mono { font-family: 'Courier New', Courier, ui-monospace, Menlo, Consolas, monospace; }
+    .sans { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .fb { transform-box: fill-box; }
+
+    .type { animation: type 10s steps(15, end) infinite; }
+    @keyframes type {
+      0%, 3% { transform: translateX(0); }
+      18%, 88% { transform: translateX(396px); }
+      94%, 100% { transform: translateX(0); }
+    }
+    .blink { animation: blink 1s linear infinite; }
+    @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+
+    .sub, .tiny { opacity: 0; animation: fade 10s ease-out infinite; }
+    .tiny { animation-name: fade2; }
+    @keyframes fade {
+      0%, 20% { opacity: 0; transform: translateY(6px); }
+      26%, 86% { opacity: 1; transform: translateY(0); }
+      90%, 100% { opacity: 0; transform: translateY(0); }
+    }
+    @keyframes fade2 {
+      0%, 25% { opacity: 0; transform: translateY(6px); }
+      31%, 86% { opacity: 1; transform: translateY(0); }
+      90%, 100% { opacity: 0; transform: translateY(0); }
+    }
+
+    .wave { transform-origin: 45% 95%; animation: wave 2.6s ease-in-out infinite; }
+    @keyframes wave {
+      0%, 60%, 100% { transform: rotate(0); }
+      10% { transform: rotate(16deg); }
+      20% { transform: rotate(-8deg); }
+      30% { transform: rotate(14deg); }
+      40% { transform: rotate(-4deg); }
+      50% { transform: rotate(10deg); }
+    }
+
+    .chip { animation: float 4s ease-in-out infinite alternate; }
+    .c2 { animation-delay: -1s; } .c3 { animation-delay: -2s; } .c4 { animation-delay: -3s; }
+    @keyframes float { from { transform: translateY(-5px); } to { transform: translateY(5px); } }
+
+    .star { transform-origin: 50% 50%; animation: twinkle 2.4s ease-in-out infinite; }
+    .s2 { animation-delay: -.6s; } .s3 { animation-delay: -1.2s; } .s4 { animation-delay: -1.8s; } .s5 { animation-delay: -.9s; }
+    @keyframes twinkle {
+      0%, 100% { opacity: .25; transform: scale(.6); }
+      50% { opacity: 1; transform: scale(1); }
+    }
+
+    .hop { transform-origin: 50% 100%; animation: hop 1.8s ease-in-out infinite; }
+    @keyframes hop {
+      0%, 55%, 100% { transform: translateY(0) scale(1, 1); }
+      62% { transform: translateY(0) scale(1.15, .85); }
+      75% { transform: translateY(-12px) scale(.92, 1.08); }
+      88% { transform: translateY(0) scale(1.1, .9); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .type { transform: translateX(396px); }
+      .sub, .tiny { opacity: 1; }
+    }
+  </style>
+
+  <defs>
+    <clipPath id="titlebox"><rect x="128" y="50" width="404" height="66"/></clipPath>
+  </defs>
+
+  <rect x="1" y="1" width="898" height="228" rx="16" fill="#111827" stroke="#374151" stroke-width="2"/>
+
+  <!-- stars -->
+  <g fill="#fde68a">
+    <path class="star fb" d="M600 30l2 6 6 2-6 2-2 6-2-6-6-2 6-2z"/>
+    <path class="star fb s2" d="M860 34l1.5 4.5 4.5 1.5-4.5 1.5-1.5 4.5-1.5-4.5-4.5-1.5 4.5-1.5z"/>
+    <path class="star fb s3" d="M560 196l1.5 4.5 4.5 1.5-4.5 1.5-1.5 4.5-1.5-4.5-4.5-1.5 4.5-1.5z"/>
+    <path class="star fb s4" d="M36 186l2 6 6 2-6 2-2 6-2-6-6-2 6-2z"/>
+    <path class="star fb s5" d="M720 112l1.5 4.5 4.5 1.5-4.5 1.5-1.5 4.5-1.5-4.5-4.5-1.5 4.5-1.5z"/>
+  </g>
+
+  <!-- waving hand (drawn, so it looks the same on every OS) -->
+  <g class="wave fb" fill="#fbbf24">
+    <rect x="68" y="62" width="9" height="30" rx="4.5"/>
+    <rect x="78" y="56" width="9" height="34" rx="4.5"/>
+    <rect x="88" y="58" width="9" height="32" rx="4.5"/>
+    <rect x="98" y="64" width="8.5" height="28" rx="4.25"/>
+    <rect x="56" y="88" width="22" height="10" rx="5" transform="rotate(-38 67 93)"/>
+    <rect x="67" y="80" width="39.5" height="32" rx="13"/>
+    <path d="M74 84v8M83 82v8M92 82v8M101 84v8" stroke="#d97706" stroke-width="1.6" stroke-linecap="round"/>
+  </g>
+  <path d="M112 58q8 4 9 13M116 50q12 6 13 19" fill="none" stroke="#fbbf24" stroke-width="2.5" stroke-linecap="round" opacity=".6"/>
+
+  <!-- title: width pinned with textLength so it doesn't depend on the installed font -->
+  <text class="mono" x="130" y="100" font-size="40" font-weight="700" fill="#f9fafb"
+        textLength="396" lengthAdjust="spacingAndGlyphs">Hi, I'm Mohamed</text>
+  <!-- typing reveal: a card-coloured cover slides right one glyph (26.4px) per step -->
+  <g clip-path="url(#titlebox)">
+    <rect class="type" x="130" y="50" width="404" height="66" fill="#111827"/>
+  </g>
+  <g class="blink">
+    <rect class="type" x="132" y="66" width="3" height="40" rx="1.5" fill="#f472b6"/>
+  </g>
+
+  <text class="sub sans" x="132" y="146" font-size="19" font-weight="600" fill="#60a5fa"
+        textLength="470" lengthAdjust="spacingAndGlyphs">Full Stack Developer · Angular · NestJS · TypeScript</text>
+  <text class="tiny sans" x="132" y="180" font-size="15" fill="#9ca3af"
+        textLength="380" lengthAdjust="spacingAndGlyphs">Embedded-systems roots · fast, reliable, well tested</text>
+
+  <!-- floating chips -->
+  <g class="sans" font-size="14" font-weight="600" text-anchor="middle" fill="#e5e7eb">
+    <g class="chip">
+      <rect x="640" y="52" width="96" height="30" rx="15" fill="#1f2937" stroke="#dd0031" stroke-width="1.5"/>
+      <text x="688" y="72">Angular</text>
+    </g>
+    <g class="chip c2">
+      <rect x="756" y="76" width="112" height="30" rx="15" fill="#1f2937" stroke="#3178c6" stroke-width="1.5"/>
+      <text x="812" y="96">TypeScript</text>
+    </g>
+    <g class="chip c3">
+      <rect x="652" y="140" width="92" height="30" rx="15" fill="#1f2937" stroke="#e0234e" stroke-width="1.5"/>
+      <text x="698" y="160">NestJS</text>
+    </g>
+    <g class="chip c4">
+      <rect x="764" y="160" width="100" height="30" rx="15" fill="#1f2937" stroke="#38bdf8" stroke-width="1.5"/>
+      <text x="814" y="180">Tailwind</text>
+    </g>
+  </g>
+
+  <text class="hop fb mono" x="612" y="208" font-size="18" font-weight="700" fill="#f472b6">:3</text>
+</svg>

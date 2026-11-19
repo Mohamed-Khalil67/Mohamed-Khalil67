@@ -29,21 +29,20 @@ More on my [portfolio](https://portfolio-swart-omega-11.vercel.app).
 ## 🛠️ Languages and tools
 
 <p>
-  <img alt="HTML" width="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
-  <img alt="CSS" width="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
-  <img alt="Tailwind CSS" width="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" />
-  <img alt="TypeScript" width="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" />
-  <img alt="JavaScript" width="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
-  <img alt="Angular" width="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg" />
-  <img alt="NestJS" width="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg" />
-  <img alt="Node.js" width="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-  <img alt="PostgreSQL" width="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg" />
-  <img alt="Firebase" width="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" />
-  <img alt="Docker" width="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg" />
-  <img alt="Python" width="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg" />
-  <img alt="C++" width="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-plain.svg" />
-  <img alt="Git" width="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
-  <img alt="Vercel" width="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg" />
+  <!-- Pictures sit back to back (no whitespace) so the spacing matches the skillicons tiles. -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=html%2Ccss%2Ctailwind%2Cts%2Cjs&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=html%2Ccss%2Ctailwind%2Cts%2Cjs&theme=light" />
+    <img alt="HTML, CSS, Tailwind CSS, TypeScript, JavaScript" src="https://skillicons.dev/icons?i=html%2Ccss%2Ctailwind%2Cts%2Cjs&theme=dark" />
+  </picture><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="icons/angular-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="icons/angular-light.svg" />
+    <img alt="Angular" src="icons/angular-dark.svg" />
+  </picture><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nestjs%2Cnodejs%2Cpostgres%2Cfirebase%2Cdocker%2Cpy%2Ccpp%2Cgit%2Cvercel&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=nestjs%2Cnodejs%2Cpostgres%2Cfirebase%2Cdocker%2Cpy%2Ccpp%2Cgit%2Cvercel&theme=light" />
+    <img alt="NestJS, Node.js, PostgreSQL, Firebase, Docker, Python, C++, Git, Vercel" src="https://skillicons.dev/icons?i=nestjs%2Cnodejs%2Cpostgres%2Cfirebase%2Cdocker%2Cpy%2Ccpp%2Cgit%2Cvercel&theme=dark" />
+  </picture>
 </p>
 
 ---
