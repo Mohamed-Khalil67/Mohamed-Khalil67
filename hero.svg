@@ -106,7 +106,7 @@
   <text class="sub sans" x="132" y="146" font-size="19" font-weight="600" fill="#60a5fa"
         textLength="470" lengthAdjust="spacingAndGlyphs">Full Stack Developer · Angular · NestJS · TypeScript</text>
   <text class="tiny sans" x="132" y="180" font-size="15" fill="#9ca3af"
-        textLength="380" lengthAdjust="spacingAndGlyphs">Embedded-systems roots · fast, reliable, well tested</text>
+        textLength="150" lengthAdjust="spacingAndGlyphs">Ex-embedded engineer</text>
 
   <!-- floating chips -->
   <g class="sans" font-size="14" font-weight="600" text-anchor="middle" fill="#e5e7eb">
