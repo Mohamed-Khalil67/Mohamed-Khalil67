@@ -29,14 +29,25 @@
       90%, 100% { opacity: 0; transform: translateY(0); }
     }
 
-    .wave { transform-origin: 45% 95%; animation: wave 2.6s ease-in-out infinite; }
+    /* Hand waves from the wrist (cuff), rests, repeats. Arcs pulse with each swing. */
+    .wave { transform-origin: 50% 100%; animation: wave 2.8s ease-in-out infinite; }
     @keyframes wave {
-      0%, 60%, 100% { transform: rotate(0); }
-      10% { transform: rotate(16deg); }
-      20% { transform: rotate(-8deg); }
-      30% { transform: rotate(14deg); }
-      40% { transform: rotate(-4deg); }
-      50% { transform: rotate(10deg); }
+      0%, 62%, 100% { transform: rotate(0deg); }
+      8%  { transform: rotate(-16deg); }
+      18% { transform: rotate(20deg); }
+      28% { transform: rotate(-14deg); }
+      38% { transform: rotate(18deg); }
+      48% { transform: rotate(-8deg); }
+      56% { transform: rotate(6deg); }
+    }
+    .arc { opacity: 0; animation: arc 2.8s ease-out infinite; }
+    .arc2 { animation-delay: .12s; }
+    @keyframes arc {
+      0%, 62%, 100% { opacity: 0; }
+      12% { opacity: .9; }
+      30% { opacity: .15; }
+      40% { opacity: .8; }
+      52% { opacity: 0; }
     }
 
     .chip { animation: float 4s ease-in-out infinite alternate; }
@@ -80,17 +91,25 @@
     <path class="star fb s5" d="M720 112l1.5 4.5 4.5 1.5-4.5 1.5-1.5 4.5-1.5-4.5-4.5-1.5 4.5-1.5z"/>
   </g>
 
-  <!-- waving hand (drawn, so it looks the same on every OS) -->
-  <g class="wave fb" fill="#fbbf24">
-    <rect x="68" y="62" width="9" height="30" rx="4.5"/>
-    <rect x="78" y="56" width="9" height="34" rx="4.5"/>
-    <rect x="88" y="58" width="9" height="32" rx="4.5"/>
-    <rect x="98" y="64" width="8.5" height="28" rx="4.25"/>
-    <rect x="56" y="88" width="22" height="10" rx="5" transform="rotate(-38 67 93)"/>
-    <rect x="67" y="80" width="39.5" height="32" rx="13"/>
-    <path d="M74 84v8M83 82v8M92 82v8M101 84v8" stroke="#d97706" stroke-width="1.6" stroke-linecap="round"/>
+  <!-- waving hand: one flat icon (stroked fingers + thumb, palm, cuff), identical on every OS -->
+  <g transform="translate(42 38)">
+    <g class="wave fb">
+      <g fill="none" stroke="#fbbf24" stroke-width="10" stroke-linecap="round">
+        <path d="M24 44V20"/>   <!-- index -->
+        <path d="M35.5 44V12"/> <!-- middle -->
+        <path d="M47 44V18"/>   <!-- ring -->
+        <path d="M58 44V28"/>   <!-- pinky -->
+        <path d="M21 62L8 47"/> <!-- thumb -->
+      </g>
+      <path fill="#fbbf24" d="M19 44h44v18a14 14 0 0 1-14 14H33a14 14 0 0 1-14-14z"/>
+      <path d="M26 66q10 7 22 0" fill="none" stroke="#d97706" stroke-width="2" stroke-linecap="round" opacity=".55"/>
+      <rect x="22" y="74" width="36" height="9" rx="4" fill="#3b82f6"/>
+    </g>
+    <g fill="none" stroke="#fbbf24" stroke-width="2.5" stroke-linecap="round">
+      <path class="arc" d="M68 12q7 2 9 10"/>
+      <path class="arc arc2" d="M71 3q12 3 15 17"/>
+    </g>
   </g>
-  <path d="M112 58q8 4 9 13M116 50q12 6 13 19" fill="none" stroke="#fbbf24" stroke-width="2.5" stroke-linecap="round" opacity=".6"/>
 
   <!-- title: width pinned with textLength so it doesn't depend on the installed font -->
   <text class="mono" x="130" y="100" font-size="40" font-weight="700" fill="#f9fafb"
